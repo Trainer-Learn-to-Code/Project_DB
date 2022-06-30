@@ -1,0 +1,9 @@
+create table jailer(
+jailerid int not null auto_increment,
+fullname varchar(45) NOT NULL,
+jailer_id varchar(10) not null,
+age int not null,
+ primary key(jailerid)
+);
+
+SELECT * from jailor;
