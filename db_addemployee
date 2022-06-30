@@ -1,0 +1,7 @@
+create table addemployee(
+emid int not null auto_increment,
+emname varchar(45) NOT NULL,
+emaddress varchar(100) not null,
+emphone varchar(10) not null,
+ primary key(emid)
+);
